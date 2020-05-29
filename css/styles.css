@@ -1,7 +1,7 @@
 
 @media screen and (min-width: 870px) and (max-width: 1200px) {
   .backgroundimg {
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
   }
   
@@ -39,8 +39,22 @@
   width: 100vw;
   background-color: rgb(167, 174, 175);
   opacity: 60%;
+  position: absolute;
 }
 
 .contents {
   position: absolute;
+}
+
+.heading {
+  width: 100vw;
+}
+
+.heading h1 {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#parent {
+  position: relative;
 }
