@@ -6,6 +6,12 @@
   .alternatebgimg {
     display: none;
   }
+
+  .well {
+    opacity: 0.75;
+    margin: 40px;
+    border-radius: 10px;
+  }
 }
 
 @media screen and (max-width: 870px) {
@@ -17,15 +23,27 @@
   .alternatebgimg {
     height: 100vh;
   }
+
+  .well {
+    opacity: 0.75;
+    margin: 40px;
+    border-radius: 10px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .backgroundimg {
-    width: 120vw
+    height: 100vh;
   }
 
   .alternatebgimg {
     display: none;
+  }
+
+  .well {
+    opacity: 0.75;
+    margin: 20px;
+    border-radius: 10px;
   }
 }
 
@@ -56,8 +74,8 @@ h1 {
   text-align: center;
 }
 
-.well {
+/* .well {
   opacity: 0.75;
   margin: 40px;
   border-radius: 10px;
-}
+} */
