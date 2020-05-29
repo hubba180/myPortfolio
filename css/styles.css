@@ -115,6 +115,31 @@
   transition: 0.8s;
 }
 
+.pagefooter {
+  width: 450px;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 20px;
+  margin-top: auto;
+  z-index: 50;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pagefooter h3 {
+  text-decoration: underline;
+}
+
+.pagefooter ul {
+  list-style: none;
+}
+
+.pagefooter:hover {
+  transition: 0.8s;
+  background-color: rgba(253, 148, 28, 0.74);
+}
+
 #menu {
   margin: 40px;
   padding: 10px;
@@ -124,6 +149,9 @@
 
 #parent {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 nav ul li {
