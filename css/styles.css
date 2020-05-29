@@ -72,6 +72,8 @@
 
 .contents {
   position: absolute;
+  display: flexbox;
+  align-items: center;
 }
 
 .heading {
@@ -82,10 +84,7 @@
 }
 
 .body {
-    width: 100vw;
-    position: relative;
-    flex-direction: column;
-    align-items: center;
+  width: 100vw;
 }
 
 .heading h1 {
@@ -118,4 +117,8 @@ nav ul li {
 
 #intro {
   text-align: center;
+}
+
+div .row {
+  width: 100vw;
 }
