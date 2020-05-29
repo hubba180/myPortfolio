@@ -18,12 +18,19 @@
     position: relative;
     text-align: center;
   }
+
+  .tileContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media screen and (max-width: 870px) {
+  
   .backgroundimg {
     display: none;
   }
+
   .alternatebgimg {
     height: 100vh;
   }
@@ -60,6 +67,11 @@
     position: relative;
     text-align: center;
   }
+
+  .tileContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .bg-wrapper {
@@ -95,11 +107,6 @@
   background-color: rgba(125, 228, 241, 0.562);
   margin: 40px;
   border-radius: 10px;
-}
-
-.tileContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 #menu {
