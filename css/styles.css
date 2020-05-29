@@ -109,6 +109,11 @@
   border-radius: 10px;
 }
 
+.introTile:hover {
+  background-color: rgba(243, 109, 192, 0.562);
+  transition: 0.8s;
+}
+
 #menu {
   margin: 40px;
   padding: 10px;
