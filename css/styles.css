@@ -81,10 +81,23 @@
   align-items: center;
 }
 
+.body {
+    width: 100vw;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
 .heading h1 {
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 5em;
+}
+
+.introTile {
+  background-color: rgba(125, 228, 241, 0.562);
+  margin: 40px;
+  border-radius: 10px;
 }
 
 #menu {
@@ -103,4 +116,6 @@ nav ul li {
   display: inline-block;
 }
 
-
+#intro {
+  text-align: center;
+}
