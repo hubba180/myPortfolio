@@ -72,8 +72,6 @@
 
 .contents {
   position: absolute;
-  display: flexbox;
-  align-items: center;
 }
 
 .heading {
@@ -99,6 +97,11 @@
   border-radius: 10px;
 }
 
+.tileContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 #menu {
   margin: 40px;
   padding: 10px;
@@ -117,8 +120,4 @@ nav ul li {
 
 #intro {
   text-align: center;
-}
-
-div .row {
-  width: 100vw;
 }
