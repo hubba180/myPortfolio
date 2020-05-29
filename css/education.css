@@ -1,0 +1,42 @@
+@media screen and (min-width: 870px) and (max-width: 1200px) {
+  .backgroundimg {
+    height: 100vh;
+  }
+  
+  .alternatebgimg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  
+  .backgroundimg {
+    display: none;
+  }
+
+  .alternatebgimg {
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .backgroundimg {
+    width: 120vw
+  }
+
+  .alternatebgimg {
+    display: none;
+  }
+}
+
+.bg-wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(167, 174, 175);
+  opacity: 60%;
+  position: absolute;
+}
+
+.contents {
+  position: absolute;
+}
