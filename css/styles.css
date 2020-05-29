@@ -110,7 +110,7 @@
 }
 
 .introTile:hover {
-  background-color: rgba(243, 109, 192, 0.562);
+  background-color: rgba(243, 109, 192, 0.8);
   transition: 0.8s;
 }
 
