@@ -1,6 +1,7 @@
 @media screen and (min-width: 870px) and (max-width: 1200px) {
   .backgroundimg {
     height: 100vh;
+    width: 100vw;
   }
   
   .alternatebgimg {
@@ -16,6 +17,7 @@
 
   .alternatebgimg {
     height: 100vh;
+    width: 100vw;
   }
 }
 
@@ -40,6 +42,10 @@
 .contents {
   position: absolute;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#fixed {
+  position: fixed;
 }
 
 #title {
