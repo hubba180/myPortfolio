@@ -13,6 +13,13 @@
     margin: 40px;
     border-radius: 10px;
   }
+
+  nav ul li a {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+  }
 }
 
 @media screen and (max-width: 870px) {
@@ -31,6 +38,13 @@
     margin: 40px;
     border-radius: 10px;
   }
+
+  nav ul li a {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -47,6 +61,24 @@
     margin: 20px;
     border-radius: 10px;
   }
+
+  nav ul li a {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+#menu {
+  margin: 40px;
+  padding: 10px;
+  border-top:1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .bg-wrapper {
